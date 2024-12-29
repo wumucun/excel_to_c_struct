@@ -1,8 +1,5 @@
 import pandas as pd
 
-def get_column_index(df, column_name):
-    return df.columns.get_loc(column_name)
-
 def process_df(df, start_row, end_row, start_col, end_col, layer):
     space = "    " * layer
     if layer > 10:
